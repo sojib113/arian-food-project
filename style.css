@@ -1,0 +1,114 @@
+
+body{
+    background-color: #031536;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    display: flex;
+    margin-top: 40px;
+    margin: 5%;
+}
+.half-width{
+    width: 50%;
+    margin-left: 20px;
+ 
+    
+}
+
+.half-width img{
+    width: 500px;
+    
+}
+.half-width h1{
+color: #96EBD8;
+font-size: 50px;
+}
+.half-width p{
+    color: #dde6e4;
+    font-size: larger;
+    margin-bottom: 50px;
+    margin-right: 30px;
+}
+.button{
+   background-color: #DD526D;
+    text-decoration: none;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 25px;
+   
+}
+.about-me{
+    display: flex;
+    margin: 5%;
+    background-color: #040D21;
+    padding-top: 25px;
+}
+#secondPic{
+    width: 300px;
+}
+
+/* menu list */
+.parent{
+    display: flex;
+    justify-content: center;
+}
+.menu-container{
+    width: 50%;
+   text-align: center;
+}
+.menu-container h1{
+    color: #96EBD8;
+font-size: 45px;
+}
+.menu-container p{
+    color: #dde6e4;
+    font-size: larger;
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+   
+}
+.card-container img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.card{
+    width: 39%;
+    background-color: #ffff;
+    padding: 20px;
+    margin-left: 40px;
+    border-radius: 7px;
+}
+.stats-parents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+.stats-container{
+    display: flex;
+    width: 90%;
+    background-color: #ffff;
+   justify-content: center;
+   margin:40px;
+}
+footer {
+background-color: #040D21;
+padding: 40px;
+}
+footer h3{
+    color: #96EBD8;
+    text-align: center;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+.button:hover{
+    background-color: #31f0c0;
+}
